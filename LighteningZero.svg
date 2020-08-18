@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-自定义大小_1);
+      }
+
+      .cls-2 {
+        fill: #5bb2ec;
+      }
+
+      .cls-3 {
+        fill: #fcd363;
+        stroke: #fcd363;
+        stroke-width: 5px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #707070;
+      }
+    </style>
+    <clipPath id="clip-自定义大小_1">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
+    <rect id="Background" class="cls-2" width="70" height="70" rx="35" transform="translate(15 15)"/>
+    <g id="Lightening" transform="translate(5.701 11.145)">
+      <path id="Lighening" class="cls-3" d="M8.558,18.595H0L6.155.029V0H19.583L14.939,14.217h9.444L8.558,35.254Z" transform="translate(32 23)"/>
+    </g>
+    <path id="路径_5" data-name="路径 5" class="cls-4" d="M74.688,54.292" transform="translate(-18 -12)"/>
+  </g>
+</svg>
