@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-自定义大小_1);
+      }
+
+      .cls-2 {
+        fill: #bbb;
+      }
+
+      .cls-3 {
+        fill: #cfcfcf;
+      }
+
+      .cls-4 {
+        fill: #ececec;
+        stroke: #ececec;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 50px;
+      }
+
+      .cls-5 {
+        filter: url(#Lighening);
+      }
+
+      .cls-6 {
+        filter: url(#Lighter);
+      }
+    </style>
+    <filter id="Lighter" x="58.747" y="73.747" width="887.057" height="887.057" filterUnits="userSpaceOnUse">
+      <feOffset dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.031"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Lighening" x="262" y="256.4" width="473.8" height="582.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-2"/>
+      <feFlood flood-color="#8a8a8a" flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-自定义大小_1">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
+    <rect id="Background" class="cls-2" width="700" height="700" rx="350" transform="translate(150 150)"/>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Lighter-2" data-name="Lighter" class="cls-3" d="M45.692,497.064,498.564,44.192A350.988,350.988,0,0,1,703.212,256.738L258.238,701.712A350.989,350.989,0,0,1,45.692,497.064Z" transform="translate(229.17 49.81) rotate(14)"/>
+    </g>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Lighening-2" data-name="Lighening" class="cls-4" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(377 341.4)"/>
+    </g>
+  </g>
+</svg>
