@@ -26,18 +26,14 @@
       }
 
       .cls-5 {
-        fill: #fff;
-      }
-
-      .cls-6 {
         filter: url(#Lightening);
       }
 
-      .cls-7 {
+      .cls-6 {
         filter: url(#Lighening);
       }
 
-      .cls-8 {
+      .cls-7 {
         filter: url(#Background);
       }
     </style>
@@ -67,14 +63,13 @@
     </clipPath>
   </defs>
   <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
-    <rect class="cls-5" width="4000" height="1100"/>
-    <g class="cls-8" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
       <rect id="Background-2" data-name="Background" class="cls-2" width="700" height="700" rx="350" transform="translate(1650 50)"/>
     </g>
-    <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
       <path id="Lighening-2" data-name="Lighening" class="cls-3" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(1877 241.4)"/>
     </g>
-    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, 0, 0)">
       <text id="Lightening-2" data-name="Lightening" class="cls-4" transform="translate(1323 992)"><tspan x="0" y="0">Lightening</tspan></text>
     </g>
   </g>
