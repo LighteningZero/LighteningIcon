@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3898" height="700" viewBox="0 0 3898 700">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4000" height="700" viewBox="0 0 4000 700">
   <defs>
     <style>
       .cls-1 {
@@ -21,7 +21,7 @@
         filter: url(#Lighening);
       }
     </style>
-    <filter id="Lighening" x="1711" y="106.4" width="473.8" height="582.5" filterUnits="userSpaceOnUse">
+    <filter id="Lighening" x="1762" y="106.4" width="473.8" height="582.5" filterUnits="userSpaceOnUse">
       <feOffset dy="30" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="30" result="blur"/>
       <feFlood flood-opacity="0.149"/>
@@ -29,13 +29,13 @@
       <feComposite in="SourceGraphic"/>
     </filter>
     <clipPath id="clip-自定义大小_1">
-      <rect width="3898" height="700"/>
+      <rect width="4000" height="700"/>
     </clipPath>
   </defs>
   <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
-    <rect id="Background" class="cls-2" width="700" height="700" rx="350" transform="translate(1599)"/>
+    <rect id="Background" class="cls-2" width="700" height="700" rx="350" transform="translate(1650)"/>
     <g class="cls-4" transform="matrix(1, 0, 0, 1, 0, 0)">
-      <path id="Lighening-2" data-name="Lighening" class="cls-3" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(1826 191.4)"/>
+      <path id="Lighening-2" data-name="Lighening" class="cls-3" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(1877 191.4)"/>
     </g>
   </g>
 </svg>
