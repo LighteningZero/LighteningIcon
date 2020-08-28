@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-自定义大小_1);
+      }
+
+      .cls-2 {
+        fill: #1a91e0;
+      }
+
+      .cls-3 {
+        fill: #2d9ce6;
+      }
+
+      .cls-4 {
+        fill: #44a7e9;
+      }
+
+      .cls-5 {
+        fill: #5bb2ec;
+      }
+
+      .cls-6 {
+        fill: #fcd363;
+        stroke: #fcd363;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 50px;
+      }
+
+      .cls-7 {
+        filter: url(#Background-4);
+      }
+
+      .cls-8 {
+        filter: url(#Background-3);
+      }
+
+      .cls-9 {
+        filter: url(#Background-2);
+      }
+
+      .cls-10 {
+        filter: url(#Background);
+      }
+    </style>
+    <filter id="Background" x="120" y="30" width="880" height="880" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Background-2" x="125" y="95" width="790" height="790" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Background-3" x="85" y="135" width="790" height="790" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Background-4" x="0" y="150" width="880" height="880" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-4"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-自定义大小_1">
+      <rect width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-5" data-name="Background" class="cls-2" width="700" height="700" rx="100" transform="translate(210 90)"/>
+    </g>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-6" data-name="Background" class="cls-3" width="700" height="700" rx="100" transform="translate(170 130)"/>
+    </g>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-7" data-name="Background" class="cls-4" width="700" height="700" rx="100" transform="translate(130 170)"/>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-8" data-name="Background" class="cls-5" width="700" height="700" rx="100" transform="translate(90 210)"/>
+    </g>
+    <path id="Lighening" class="cls-6" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(318 386.4)"/>
+  </g>
+</svg>
