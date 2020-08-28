@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4000" height="1100" viewBox="0 0 4000 1100">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-自定义大小_1);
+      }
+
+      .cls-2 {
+        fill: #5bb2ec;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fcd363;
+      }
+
+      .cls-3 {
+        stroke: #fcd363;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 50px;
+      }
+
+      .cls-4 {
+        font-size: 271px;
+        font-family: MonofurboldForPowerline, monofur for Powerline;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        filter: url(#Lightening);
+      }
+
+      .cls-7 {
+        filter: url(#Lighening);
+      }
+
+      .cls-8 {
+        filter: url(#Background);
+      }
+    </style>
+    <filter id="Background" x="1560" y="-10" width="880" height="880" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Lighening" x="1762" y="156.4" width="473.8" height="582.5" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Lightening" x="1233" y="712" width="1535" height="458" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-自定义大小_1">
+      <rect width="4000" height="1100"/>
+    </clipPath>
+  </defs>
+  <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
+    <rect class="cls-5" width="4000" height="1100"/>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-2" data-name="Background" class="cls-2" width="700" height="700" rx="350" transform="translate(1650 50)"/>
+    </g>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Lighening-2" data-name="Lighening" class="cls-3" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(1877 241.4)"/>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <text id="Lightening-2" data-name="Lightening" class="cls-4" transform="translate(1323 992)"><tspan x="0" y="0">Lightening</tspan></text>
+    </g>
+  </g>
+</svg>
