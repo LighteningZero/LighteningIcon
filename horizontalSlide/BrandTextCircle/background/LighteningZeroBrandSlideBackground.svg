@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4000" height="1180" viewBox="0 0 4000 1180">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-自定义大小_1);
+      }
+
+      .cls-2 {
+        fill: #1a91e0;
+      }
+
+      .cls-3 {
+        fill: #2d9ce6;
+      }
+
+      .cls-4 {
+        fill: #44a7e9;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #5bb2ec;
+      }
+
+      .cls-6 {
+        font-size: 350px;
+        font-family: MonofurboldForPowerline, monofur for Powerline;
+      }
+
+      .cls-7 {
+        font-size: 271px;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #fcd363;
+      }
+
+      .cls-8 {
+        stroke: #fcd363;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 50px;
+        opacity: 0.98;
+      }
+
+      .cls-10 {
+        filter: url(#LighteningSlide);
+      }
+
+      .cls-11 {
+        filter: url(#Background-4);
+      }
+
+      .cls-12 {
+        filter: url(#Background-3);
+      }
+
+      .cls-13 {
+        filter: url(#Background-2);
+      }
+
+      .cls-14 {
+        filter: url(#Background);
+      }
+    </style>
+    <filter id="Background" x="1620" y="-60" width="880" height="880" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Background-2" x="1625" y="5" width="790" height="790" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Background-3" x="1585" y="45" width="790" height="790" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Background-4" x="1500" y="60" width="880" height="880" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-4"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="LighteningSlide" x="854" y="760" width="2292" height="531" filterUnits="userSpaceOnUse">
+      <feOffset dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-5"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-自定义大小_1">
+      <rect width="4000" height="1180"/>
+    </clipPath>
+  </defs>
+  <g id="自定义大小_1" data-name="自定义大小 – 1" class="cls-1">
+    <rect class="cls-9" width="4000" height="1180"/>
+    <g class="cls-14" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-5" data-name="Background" class="cls-2" width="700" height="700" rx="100" transform="translate(1710)"/>
+    </g>
+    <g class="cls-13" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-6" data-name="Background" class="cls-3" width="700" height="700" rx="100" transform="translate(1670 40)"/>
+    </g>
+    <g class="cls-12" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-7" data-name="Background" class="cls-4" width="700" height="700" rx="100" transform="translate(1630 80)"/>
+    </g>
+    <g class="cls-11" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <rect id="Background-8" data-name="Background" class="cls-5" width="700" height="700" rx="100" transform="translate(1590 120)"/>
+    </g>
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <text id="LighteningSlide-2" data-name="LighteningSlide" class="cls-6" transform="translate(944 1105)"><tspan x="0" y="0">L</tspan><tspan class="cls-7" y="0">ightening</tspan><tspan y="0">S</tspan><tspan class="cls-7" y="0">lide</tspan></text>
+    </g>
+    <path id="Lighening" class="cls-8" d="M85.568,185.922H0L61.538.29V0H195.8L149.375,142.155H243.8L85.568,352.5Z" transform="translate(1818 296.4)"/>
+  </g>
+</svg>
